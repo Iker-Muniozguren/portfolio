@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+body {
+    font-family: "Outfit", sans-serif;
+    background-color: var(--color-bg);
+    -webkit-user-select: none;
+    /* Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE/Edge antiguo */
+    user-select: none;
+    /* estándar */
+}
+
+html {
+}
+
+:root {
+    --color-bg: #f8fafc;
+}
+
+html.dark {
+    --color-bg: #101010;
+}
+
+.background {
+    background: radial-gradient(closest-corner, rgba(54, 129, 52, .15), rgba(33, 96, 89, .15), rgba(87, 67, 172, .15), rgba(105, 22, 22, .15));
+    background-size: 400% 400%;
+    animation: gradient 30s ease infinite;
+}
+
+html.dark .background {
+    background: radial-gradient(closest-corner, rgba(54, 129, 52, .4), rgba(33, 96, 89, .4), rgba(87, 67, 172, .4), rgba(105, 22, 22, .4));
+    background-size: 400% 400%;
+    animation: gradient 30s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}

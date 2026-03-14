@@ -59,8 +59,8 @@
 
     <!-- Llamada a la acción -->
     <section class="flex flex-col md:flex-row items-center justify-center gap-4 mb-8">
-      <a href="/projects" class="inline-block rounded-xl border border-purple-600 bg-purple-500/30 hover:bg-purple-600 text-white px-6 py-3 font-semibold shadow transition">Ver proyectos destacados</a>
-      <a href="/about" class="inline-block rounded-xl border border-red-600 bg-red-500/30 hover:bg-red-600 text-white px-6 py-3 font-semibold shadow transition">Conocer más sobre mí</a>
+      <router-link to="/projects" class="inline-block rounded-xl border border-purple-600 bg-purple-500/30 hover:bg-purple-600 text-white px-6 py-3 font-semibold shadow transition">Ver proyectos destacados</router-link>
+      <router-link to="/about" class="inline-block rounded-xl border border-red-600 bg-red-500/30 hover:bg-red-600 text-white px-6 py-3 font-semibold shadow transition">Conocer más sobre mí</router-link>
       <a href="mailto:imuniozguren04@gmail.com" class="inline-block rounded-xl border border-green-600 bg-green-500/30 hover:bg-green-600 text-white px-6 py-3 font-semibold shadow transition">Solicitar presupuesto o contacto</a>
     </section>
 
@@ -69,7 +69,7 @@
 
 <script setup>
 import { storeToRefs } from 'pinia'
-import { ArrowUpRightIcon } from '@heroicons/vue/16/solid'
+import { RouterLink } from 'vue-router'
 import { useProfileStore } from '../stores/profile'
 
 const profileStore = useProfileStore()

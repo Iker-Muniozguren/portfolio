@@ -4,11 +4,24 @@ import { ArrowUpRightIcon } from '@heroicons/vue/16/solid'
 import { RouterLink, RouterView } from 'vue-router'
 import { ref, onMounted } from 'vue'
 import { useTheme } from './composables/useTheme'
+import { watch } from 'vue'
+import { useRoute } from 'vue-router'
+
+const route = useRoute()
 
 const showTooltipMessage = ref(false)
 
 const { isDark, initTheme, toggleTheme } = useTheme()
 onMounted(initTheme)
+
+// Scroll to top when route changes
+watch(() => route.path, () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  })
+})
+
 </script>
 
 <template>

@@ -15,7 +15,21 @@ body {
     /* estándar */
 }
 
-html {
+.custom-scroll::-webkit-scrollbar {
+  width: 4px;
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  background: #9ca3af;
+  border-radius: 9999px;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #6b7280;
 }
 
 :root {
@@ -27,7 +41,7 @@ html.dark {
 }
 
 .background {
-    background: radial-gradient(closest-corner, rgba(54, 129, 52, .15), rgba(33, 96, 89, .15), rgba(87, 67, 172, .15), rgba(105, 22, 22, .15));
+    background: radial-gradient(closest-corner, rgba(54, 129, 52, .2), rgba(33, 96, 89, .2), rgba(87, 67, 172, .2), rgba(105, 22, 22, .2));
     background-size: 400% 400%;
     animation: gradient 30s ease infinite;
 }

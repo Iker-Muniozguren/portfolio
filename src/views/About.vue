@@ -3,16 +3,15 @@
     <div class="mb-10 border-b border-black/10 dark:border-white/10 pb-8 ">
       <p class="mb-2 text-xs sm:text-sm font-medium uppercase tracking-widest text-red-400">Perfil profesional</p>
       <h1 class="text-4xl font-semibold tracking-tight text-gray-900 dark:text-gray-50 sm:text-5xl ">Sobre mí</h1>
-      <p class="mt-3 text-base font-light text-gray-500 dark:text-gray-400 ">Desarrollo de aplicaciones web de gestión con foco en claridad, escalabilidad y experiencia de usuario.</p>
+      <p class="mt-3 text-base font-light text-gray-500 dark:text-gray-400 ">
+        Desarrollo todo tipo de páginas web y soluciones digitales, con especialidad en aplicaciones de gestión para empresas, pero también experiencia en landing pages, webs corporativas y proyectos a medida. Mi objetivo es aportar claridad, escalabilidad y una experiencia de usuario excelente, sea cual sea la necesidad de tu negocio.
+      </p>
     </div>
 
     <div class="grid gap-5 lg:grid-cols-[320px_minmax(0,1fr)]">
       <aside class="overflow-hidden rounded-3xl border border-black/10 dark:border-white/10 bg-white/40 dark:bg-black/40 shadow-lg shadow-black/5 dark:shadow-black/30 backdrop-blur-sm lg:sticky lg:top-24 lg:h-fit ">
         <div class="relative">
-          <img src="/iker_en_clase.jpg" alt="Iker en clase" class="h-64 w-full object-cover object-center" />
-          <div class="absolute inset-x-0 bottom-0 bg-linear-to-t from-black/70 to-transparent px-4 py-3">
-            <p class="text-xs text-gray-200">Repaso para el examen de Desarrollo en Entorno Servidor</p>
-          </div>
+          <img src="/iker.jpeg" alt="Iker en clase" class="h-auto w-full object-center" />
         </div>
 
         <div class="space-y-4 p-5">
@@ -44,7 +43,9 @@
             <h2 class="text-lg font-semibold tracking-tight text-gray-900 dark:text-gray-50 ">Resumen</h2>
           </div>
           <div class="space-y-4 p-6">
-            <p class="text-sm leading-relaxed text-gray-600 dark:text-gray-300 sm:text-base ">Soy un desarrollador fullstack con experiencia en aplicaciones web de gestión, landing pages y soluciones digitales orientadas a negocio.</p>
+            <p class="text-sm leading-relaxed text-gray-600 dark:text-gray-300 sm:text-base ">
+              Soy un desarrollador fullstack con experiencia en aplicaciones web de gestión, landing pages, webs corporativas y soluciones digitales orientadas a negocio. Me adapto a las necesidades de cada cliente, desde proyectos de gestión complejos hasta páginas informativas o de presentación.
+            </p>
             <p class="text-sm leading-relaxed text-gray-500 dark:text-gray-400 sm:text-base ">Trabajo tanto en frontend como en backend y tengo experiencia con automatización de procesos usando n8n y agentes de inteligencia artificial.</p>
           </div>
         </section>

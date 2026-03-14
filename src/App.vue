@@ -32,7 +32,7 @@ onMounted(initTheme)
           </router-link>
 
           <a href="mailto:imuniozguren04@gmail.com"
-            class="relative p-3 rounded-xl hover:text-green-400"
+            class="relative p-3 rounded-xl hover:text-green-600"
             @mouseover="showTooltipMessage = true" @mouseleave="showTooltipMessage = false">
             <transition name="genie">
               <div v-if="showTooltipMessage"

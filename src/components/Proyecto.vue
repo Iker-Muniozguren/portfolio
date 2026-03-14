@@ -39,7 +39,7 @@ defineProps({
 
 <template>
     <article
-        class="group w-full overflow-hidden rounded-3xl border border-black/10 dark:border-white/10 bg-white/40 dark:bg-black/40 shadow-lg shadow-white/30 dark:shadow-black/30 backdrop-blur-sm hover:-translate-y-0.5 hover:border-gray-300 dark:hover:border-white/20 ">
+        class="group w-full overflow-hidden rounded-3xl border border-black/10 dark:border-white/10 bg-white/40 dark:bg-black/40 shadow-lg shadow-black/5 dark:shadow-black/30 backdrop-blur-sm transition-transform hover:-translate-y-0.5 hover:border-gray-300 dark:hover:border-white/20 ">
 
         <!-- Header -->
         <div class="flex items-center justify-between border-b border-black/10 dark:border-white/10 px-6 py-4 ">
@@ -80,7 +80,7 @@ defineProps({
             <!-- Image -->
             <div v-if="image" class="border-t border-black/10 dark:border-white/10 md:border-l md:border-t-0 ">
                 <img :src="image" :alt="name"
-                    class="h-full max-h-56 w-full object-cover object-top opacity-80 transition-opacity duration-300 group-hover:opacity-100 md:max-h-full" />
+                    class="h-56 w-full object-cover object-top opacity-80 transition-opacity duration-300 group-hover:opacity-100 md:max-h-full" />
             </div>
 
         </div>

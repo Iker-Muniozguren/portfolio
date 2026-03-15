@@ -18,6 +18,12 @@ const routes = [
     name: 'About',
     component: () => import('../views/About.vue'),
     meta: { title: 'Sobre mí - Iker Muniozguren' }
+  },
+  {
+    path: '/:pathMatch(.*)*',
+    name: 'NotFound',
+    component: () => import('../views/NotFound.vue'),
+    meta: { title: '404 - Página no encontrada' }
   }
 ]
 

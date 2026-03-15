@@ -44,13 +44,13 @@ watch(() => route.path, () => {
             :class="{ 'text-red-400': $route.path === '/about' }">Sobre mí
           </router-link>
 
-          <a href="mailto:imuniozguren04@gmail.com"
+          <a href="mailto:iker@ikermuni.dev"
             class="relative p-3 rounded-xl hover:text-green-600"
             @mouseover="showTooltipMessage = true" @mouseleave="showTooltipMessage = false">
             <transition name="genie">
               <div v-if="showTooltipMessage"
                 class="absolute text-sm bg-white/40 dark:bg-black/40 flex p-1 pr-1.5 pl-1.5 rounded-lg text-gray-700 dark:text-gray-100 pointer-events-none justify-center items-center whitespace-nowrap -bottom-11 left-1/2 -translate-x-1/2 gap-1">
-                <p class="inline-flex items-center gap-1.5 text-sm font-medium text-gray-800 dark:text-gray-100">imuniozguren04@gmail.com <ArrowUpRightIcon class="h-4 w-4" /></p>
+                <p class="inline-flex items-center gap-1.5 text-sm font-medium text-gray-800 dark:text-gray-100">iker@ikermuni.dev <ArrowUpRightIcon class="h-4 w-4" /></p>
               </div>
             </transition>
             Contactar

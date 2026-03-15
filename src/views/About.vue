@@ -121,10 +121,10 @@
           <div class="space-y-4 p-6">
             <div class="grid gap-3 sm:grid-cols-2">
               <a
-                href="mailto:imuniozguren04@gmail.com"
+                href="mailto:iker@ikermuni.dev"
                 class="rounded-2xl border border-black/10 dark:border-white/10 bg-black/5 dark:bg-white/5 p-1 dark:hover:bg-green-600 hover:bg-green-600 text-center group "
               >
-                <p class="inline-flex items-center gap-1.5 text-sm font-medium text-gray-800 dark:text-gray-100 group-hover:text-gray-100 ">imuniozguren04@gmail.com <ArrowUpRightIcon class="h-4 w-4" /></p>
+                <p class="inline-flex items-center gap-1.5 text-sm font-medium text-gray-800 dark:text-gray-100 group-hover:text-gray-100 ">iker@ikermuni.dev <ArrowUpRightIcon class="h-4 w-4" /></p>
               </a>
               <a
                 href="https://github.com/Iker-Muniozguren"

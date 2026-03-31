@@ -127,7 +127,7 @@
                 <p class="inline-flex items-center gap-1.5 text-sm font-medium text-gray-800 dark:text-gray-100 group-hover:text-gray-100 ">iker@ikermuni.dev <ArrowUpRightIcon class="h-4 w-4" /></p>
               </a>
               <a
-                href="https://github.com/Iker-Muniozguren"
+                href="https://github.com/ikermuni"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="rounded-2xl border border-black/10 dark:border-white/10 bg-black/5 dark:bg-white/5 p-1 dark:hover:bg-black/50 hover:bg-black/70 text-center group "

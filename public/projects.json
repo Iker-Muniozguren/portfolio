@@ -4,7 +4,7 @@
     "name": "Dividir",
     "desc": "Aplicación web para dividir gastos de forma justa entre varias personas. Calcula cuánto debe pagar cada persona teniendo en cuenta qué productos comparte cada una, evitando errores de redondeo típicos.",
     "image": "/dividir.png",
-    "github": "https://github.com/Iker-Muniozguren/dividir.git",
+    "github": "https://github.com/ikermuni/dividir.git",
     "demo": "https://iker-muniozguren.github.io/dividir/",
     "stack": ["HTML", "JavaScript", "CSS"],
     "date": "2024"
@@ -31,7 +31,7 @@
     "name": "MyFirstMod (mod de Minecraft)",
     "desc": "Este mod no añade contenido nuevo al juego. Es un mod de prueba creado siguiendo la plantilla oficial de Minecraft Forge, con el objetivo de entender la estructura básica de un mod: cómo se registra, cómo funciona el ciclo de vida del mod y cómo se configura el entorno de desarrollo.",
     "image": "/mod.png",
-    "github": "https://github.com/Iker-Muniozguren/MyFirstMod.git",
+    "github": "https://github.com/ikermuni/MyFirstMod.git",
     "stack": ["Java", "Forge"],
     "date": "2026"
   }

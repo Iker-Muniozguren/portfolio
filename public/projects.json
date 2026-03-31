@@ -5,7 +5,7 @@
     "desc": "Aplicación web para dividir gastos de forma justa entre varias personas. Calcula cuánto debe pagar cada persona teniendo en cuenta qué productos comparte cada una, evitando errores de redondeo típicos.",
     "image": "/dividir.png",
     "github": "https://github.com/ikermuni/dividir.git",
-    "demo": "https://iker-muniozguren.github.io/dividir/",
+    "demo": "https://ikermuni.github.io/dividir/",
     "stack": ["HTML", "JavaScript", "CSS"],
     "date": "2024"
   },

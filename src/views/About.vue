@@ -31,7 +31,7 @@
             </div>
             <div class="col-span-2 rounded-xl border border-black/10 dark:border-white/10 bg-black/5 dark:bg-white/5 px-3 py-2 ">
               <p class="font-mono text-[11px] uppercase tracking-wide text-gray-400 dark:text-gray-500 ">Estado</p>
-              <p class="text-sm font-medium text-gray-700 dark:text-gray-200 ">Formación y proyectos reales</p>
+              <p class="text-sm font-medium text-gray-700 dark:text-gray-200 ">Estudiando Ingeniería Informática</p>
             </div>
           </div>
         </div>
@@ -54,7 +54,12 @@
           <div class="border-b border-black/10 dark:border-white/10 px-6 py-4 ">
             <h2 class="text-lg font-semibold tracking-tight text-gray-900 dark:text-gray-50 ">Educación</h2>
           </div>
-          <div class="p-6">
+          <div class="space-y-4 p-6">
+            <article class="rounded-2xl border border-black/10 dark:border-white/10 bg-black/5 dark:bg-white/5 p-4 ">
+              <p class="font-mono text-xs text-gray-400 dark:text-gray-500 ">2026 - Actualidad</p>
+              <h3 class="mt-1 text-base font-medium text-gray-800 dark:text-gray-100 ">Grado en Ingeniería Informática</h3>
+              <p class="mt-2 text-sm text-gray-500 dark:text-gray-400 ">Facultad de Informática de Donostia-San Sebastián, EHU/UPV.</p>
+            </article>
             <article class="rounded-2xl border border-black/10 dark:border-white/10 bg-black/5 dark:bg-white/5 p-4 ">
               <p class="font-mono text-xs text-gray-400 dark:text-gray-500 ">2024 - 2026</p>
               <h3 class="mt-1 text-base font-medium text-gray-800 dark:text-gray-100 ">Grado Superior en Desarrollo de Aplicaciones Web (DAW)</h3>
